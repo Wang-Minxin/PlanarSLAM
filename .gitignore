@@ -1,0 +1,9 @@
+/build
+Examples/Monocular/mono_tum
+Examples/RGB-D/Planar_SLAM
+lib/
+Thirdparty/g2o/build/
+Thirdparty/g2o/lib/
+Thirdparty/DBoW2/build/
+Thirdparty/DBoW2/lib/
+Vocabulary/*

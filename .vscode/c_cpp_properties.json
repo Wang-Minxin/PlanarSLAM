@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Thirdparty/g2o/g2o/types/*",
+                "${workspaceFolder}/Thirdparty/g2o/g2o/core/*",
+                "${workspaceFolder}/Thirdparty/triangle/*",
+                "${workspaceFolder}/include/*",
+                "/usr/include/eigen3",
+                "/usr/local/include/*",
+                "/usr/local/include/pcl-1.10/pcl/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
