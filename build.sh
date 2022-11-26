@@ -1,4 +1,12 @@
 # echo "Configuring and building Thirdparty/DBoW2 ..."
+###
+ # @Author: wmx
+ # @Date: 2022-11-24 16:23:08
+ # @LastEditTime: 2022-11-26 15:15:33
+ # @LastEditors: wmx
+ # @Description: 
+ # @FilePath: /PlanarSLAM/build.sh
+### 
 
 # cd Thirdparty/DBoW2
 # mkdir build
@@ -28,4 +36,4 @@ echo "Configuring and building ORB_SLAM2 ..."
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j8
+make -j4

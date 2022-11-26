@@ -1,3 +1,11 @@
+/*
+ * @Author: wmx
+ * @Date: 2022-11-24 16:23:08
+ * @LastEditTime: 2022-11-26 15:42:55
+ * @LastEditors: wmx
+ * @Description: 
+ * @FilePath: /PlanarSLAM/media/wmx/files/wmx/SLAM/PlanarSLAM/src/LSDextractor.cpp
+ */
 #include "LSDextractor.h"
 #include <opencv2/line_descriptor/descriptor.hpp>
 
@@ -33,6 +41,7 @@ namespace Planar_SLAM {
             Vector3d ep_l;
             ep_l << it->endPointX, it->endPointY, 1.0;
             Vector3d lineF;
+            // 线段两个端点的叉乘为线段的表达式
             lineF << sp_l.cross(ep_l);
             lineF = lineF / sqrt(lineF(0) * lineF(0) + lineF(1) * lineF(1) + lineF(2) * lineF(2));
             keylineFunctions.push_back(lineF);

@@ -191,6 +191,7 @@ namespace Planar_SLAM {
         mvLines3D = vector<Vector6d>(mvKeylinesUn.size(), Eigen::Matrix<double, 6, 1>::Zero());
 
         for (int i = 0; i < mvKeylinesUn.size(); ++i) { // each line
+            // 计算线段的长度
             double len = cv::norm(mvKeylinesUn[i].getStartPoint() - mvKeylinesUn[i].getEndPoint());
             vector<cv::Point3d> pts3d;
             // iterate through a line

@@ -186,16 +186,16 @@ namespace Planar_SLAM {
         double featureT = std::chrono::duration_cast<std::chrono::duration<double> >(t3 - t1).count();
         double trackT = getTrackTime();
 
-        std::ofstream fileWrite12("total_plp.txt", std::ios::app);
-        std::ofstream fileWriteTrack("Track_plp.txt", std::ios::app);
-        std::ofstream fileWriteFeature("Feature_plp.txt", std::ios::app);
-        fileWrite12<<t12<<endl;
-        fileWriteTrack<<trackT<<endl;
-        fileWriteFeature<<featureT<<endl;
-        //fileWrite12.write((char*) &trackT, sizeof(double));
-        fileWrite12.close();
-        fileWriteTrack.close();
-        fileWriteFeature.close();
+        // std::ofstream fileWrite12("total_plp.txt", std::ios::app);
+        // std::ofstream fileWriteTrack("Track_plp.txt", std::ios::app);
+        // std::ofstream fileWriteFeature("Feature_plp.txt", std::ios::app);
+        // fileWrite12<<t12<<endl;
+        // fileWriteTrack<<trackT<<endl;
+        // fileWriteFeature<<featureT<<endl;
+        // //fileWrite12.write((char*) &trackT, sizeof(double));
+        // fileWrite12.close();
+        // fileWriteTrack.close();
+        // fileWriteFeature.close();
 
 //        std::chrono::steady_clock::time_point t3 = std::chrono::steady_clock::now();
 //        double t32= std::chrono::duration_cast<std::chrono::duration<double> >(t3 - t2).count();
@@ -224,7 +224,7 @@ namespace Planar_SLAM {
                 Rotation_cm = cv::Mat::zeros(cv::Size(3, 3), CV_32F);
 
                 StereoInitialization();
-                Rotation_cm = mpMap->FindManhattan(mCurrentFrame, mfVerTh, true);
+                Rotation_cm = mpMap->FindManhattan(mCurrentFrame, mfVerTh, false);
                 //Rotation_cm=SeekManhattanFrame(mCurrentFrame.vSurfaceNormal,mCurrentFrame.mVF3DLines).clone();
                 Rotation_cm = TrackManhattanFrame(Rotation_cm, mCurrentFrame.vSurfaceNormal, mCurrentFrame.mVF3DLines).clone();
                 mLastRcm = Rotation_cm.clone();

@@ -116,10 +116,15 @@ int main(int argc, char **argv)
     cout << "mean tracking time: " << totaltime/nImages << endl;
 
     // Save camera trajectory
-    SLAM.SaveTrajectoryTUM("CameraTrajectory.txt");
-    SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
-    SLAM.SaveMesh("MeshMap.ply");
-
+    char isSave;
+    cout << "Do you want to save trajectory and meshmap(y/n)?" << endl;
+    cin >> isSave;
+    if(isSave == 'y' || isSave == 'Y')
+    {
+        SLAM.SaveTrajectoryTUM("CameraTrajectory.txt");
+        SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
+        SLAM.SaveMesh("MeshMap.ply");
+    }
     return 0;
 }
 

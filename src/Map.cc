@@ -272,7 +272,7 @@ namespace Planar_SLAM {
         Rotation_cm = cv::Mat::eye(cv::Size(3, 3), CV_32F);
 
         if (!bestP1.empty() && !bestP2.empty()) {
-
+            // 最大的分量对应着某一个轴，例如(1,0,0)对应的x轴的方向
             int loc1;
             float max1 = 0;
             for (int i = 0; i < 3; i++) {
@@ -354,9 +354,8 @@ namespace Planar_SLAM {
             Rotation_cm.at<float>(2, 2) = third.at<float>(2, 0);
 
             cv::Mat U, W, VT;
-
             cv::SVD::compute(Rotation_cm, W, U, VT);
-
+            // 转化到SO3空间中
             Rotation_cm = U * VT;
         }
 

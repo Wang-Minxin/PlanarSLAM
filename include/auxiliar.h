@@ -1,3 +1,11 @@
+/*
+ * @Author: wmx
+ * @Date: 2022-11-24 16:23:08
+ * @LastEditTime: 2022-11-26 15:43:43
+ * @LastEditors: wmx
+ * @Description: 
+ * @FilePath: /PlanarSLAM/media/wmx/files/wmx/SLAM/PlanarSLAM/include/auxiliar.h
+ */
 //
 // Created by lan on 17-12-18.
 //
@@ -5,8 +13,8 @@
 #pragma once
 
 #include <iostream>
-
-#include <cv.h>
+#include <opencv/cv.h>
+// #include <cv.h>
 #include <opencv2/features2d/features2d.hpp>
 #include <opencv2/line_descriptor/descriptor.hpp>
 
