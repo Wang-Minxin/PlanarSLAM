@@ -1,0 +1,11 @@
+# ninja log v5
+1	3434	1698629769707211684	CMakeFiles/PlanarSLAM.dir/src/ORBextractor.cc.o	7d0f9cc4aa336695
+16	4439	1698629931084399510	CMakeFiles/PlanarSLAM.dir/src/LSDextractor.cpp.o	2a8893f0d292105f
+2	96823	1698629863090566320	CMakeFiles/PlanarSLAM.dir/src/MapDrawer.cc.o	15fc5b985e5aef32
+1	104744	1698629871007863451	CMakeFiles/PlanarSLAM.dir/src/LocalMapping.cc.o	49ae1587fde21160
+2	144203	1698629910410948930	CMakeFiles/PlanarSLAM.dir/src/Optimizer.cc.o	f8eba259f2707d9
+1	97087	1698629863346473398	CMakeFiles/PlanarSLAM.dir/src/ORBmatcher.cc.o	e9193db02263e00b
+1	98655	1698629864917908571	CMakeFiles/PlanarSLAM.dir/src/KeyFrame.cc.o	e9847dd23745ee7d
+0	100873	1698629867137137833	CMakeFiles/PlanarSLAM.dir/src/System.cc.o	60808e7788b4401
+15	10091	1698629936699883625	CMakeFiles/PlanarSLAM.dir/src/LineExtractor.cpp.o	d10718ce3f39140d
+1	97152	1698629863414448716	CMakeFiles/PlanarSLAM.dir/src/MapLine.cpp.o	4d72d2c1d63445bd

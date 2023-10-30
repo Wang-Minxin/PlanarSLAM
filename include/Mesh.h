@@ -16,7 +16,7 @@
 
 #include <pcl/point_types.h>
 
-#include <pcl/visualization/pcl_visualizer.h>
+// #include <pcl/visualization/pcl_visualizer.h>
 
 #include <pcl/console/print.h>
 #include <pcl/console/parse.h>

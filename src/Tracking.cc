@@ -138,7 +138,7 @@ namespace Planar_SLAM {
         manhattanCount = 0;
         fullManhattanCount = 0;
 
-        mpPointCloudMapping = make_shared<MeshViewer>(mpMap);
+        // mpPointCloudMapping = make_shared<MeshViewer>(mpMap);
     }
 
 
@@ -224,6 +224,8 @@ namespace Planar_SLAM {
                 Rotation_cm = cv::Mat::zeros(cv::Size(3, 3), CV_32F);
 
                 StereoInitialization();
+                // 得到互相垂直的两个面或者是一个线一个面，将其方向作为曼哈顿世界的两个主轴，
+                // 然后利用两个向量的叉乘，得到第三个向量作为另外一个主轴
                 Rotation_cm = mpMap->FindManhattan(mCurrentFrame, mfVerTh, false);
                 //Rotation_cm=SeekManhattanFrame(mCurrentFrame.vSurfaceNormal,mCurrentFrame.mVF3DLines).clone();
                 Rotation_cm = TrackManhattanFrame(Rotation_cm, mCurrentFrame.vSurfaceNormal, mCurrentFrame.mVF3DLines).clone();
@@ -303,7 +305,7 @@ namespace Planar_SLAM {
                 }
             }
 
-            mpPointCloudMapping->print();
+            // mpPointCloudMapping->print();
 
             // If tracking were good, check if we insert a keyframe
             if (bOK) {
@@ -1209,7 +1211,7 @@ namespace Planar_SLAM {
                 mCurrentFrame.mvpMapPlanes[i] = pNewMP;
             }
 
-            mpPointCloudMapping->print();
+            // mpPointCloudMapping->print();
 
             mpLocalMapper->InsertKeyFrame(pKFini);
 
@@ -2271,7 +2273,7 @@ namespace Planar_SLAM {
                 mpMap->AddMapPlane(pNewMP);
             }
 
-            mpPointCloudMapping->print();
+            // mpPointCloudMapping->print();
 
             cout << "New map created with " << mpMap->MapPlanesInMap() << " planes" << endl;
         }
@@ -2774,11 +2776,11 @@ namespace Planar_SLAM {
         mbOnlyTracking = flag;
     }
 
-    void Tracking::SaveMesh(const string &filename){
-        //
-        mpPointCloudMapping->SaveMeshModel(filename);
+    // void Tracking::SaveMesh(const string &filename){
+    //     //
+    //     // mpPointCloudMapping->SaveMeshModel(filename);
 
-    }
+    // }
 
 
 } //namespace Planar_SLAM

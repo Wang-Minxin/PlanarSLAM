@@ -26,11 +26,11 @@
 #include "LSDmatcher.h"
 #include "PlaneMatcher.h"
 
-#include "MeshViewer.h"
+// #include "MeshViewer.h"
 #include "MapPlane.h"
 
 
-class MeshViewer;
+// class MeshViewer;
 
 namespace Planar_SLAM
 {
@@ -79,7 +79,7 @@ public:
 
     cv::Mat ClusterMultiManhattanFrame(vector<cv::Mat> &vRotationCandidate,double &clusterRatio);
     vector<vector<int>>  EasyHist(vector<float> &vDistance,int &histStart,float &histStep,int&histEnd);
-    void SaveMesh(const string &filename);
+    // void SaveMesh(const string &filename);
 
 public:
 
@@ -135,7 +135,7 @@ public:
 
     void Reset();
 
-    shared_ptr<MeshViewer>  mpPointCloudMapping;
+    // shared_ptr<MeshViewer>  mpPointCloudMapping;
 
     double getTrackTime();
     double trackTime;

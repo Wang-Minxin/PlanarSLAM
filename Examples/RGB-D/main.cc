@@ -4,7 +4,7 @@
 #include<chrono>
 #include<opencv2/core/core.hpp>
 #include<System.h>
-#include<Mesh.h>
+// #include<Mesh.h>
 #include<MapPlane.h>
 
 using namespace std;
@@ -123,7 +123,7 @@ int main(int argc, char **argv)
     {
         SLAM.SaveTrajectoryTUM("CameraTrajectory.txt");
         SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
-        SLAM.SaveMesh("MeshMap.ply");
+        // SLAM.SaveMesh("MeshMap.ply");
     }
     return 0;
 }

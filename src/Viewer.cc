@@ -130,7 +130,7 @@ void Viewer::RunWithPLP()
 
             if(menuScreenshotMesh)
             {
-                mpTracker->SaveMesh("Screenshot.ply");
+                // mpTracker->SaveMesh("Screenshot.ply");
                 menuScreenshot = false;
             }
 

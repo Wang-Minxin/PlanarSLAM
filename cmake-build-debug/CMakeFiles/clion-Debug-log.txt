@@ -1,0 +1,842 @@
+/opt/clion/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/clion-2023.2.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/wmx/code/SLAM/PlanarSLAM -B /home/wmx/code/SLAM/PlanarSLAM/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+Build type: Debug
+-- Using flag -std=c++11.
+OPENCV_VERSION
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkChartsCore' component is 'ChartsCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonCore' component is 'CommonCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonDataModel' component is 'CommonDataModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonExecutionModel' component is
+  'CommonExecutionModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersCore' component is 'FiltersCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersExtraction' component is
+  'FiltersExtraction'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersModeling' component is 'FiltersModeling'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingCore' component is 'ImagingCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingSources' component is 'ImagingSources'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionStyle' component is 'InteractionStyle'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionWidgets' component is
+  'InteractionWidgets'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOCore' component is 'IOCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOGeometry' component is 'IOGeometry'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOImage' component is 'IOImage'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOLegacy' component is 'IOLegacy'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOPLY' component is 'IOPLY'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingAnnotation' component is
+  'RenderingAnnotation'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingLOD' component is 'RenderingLOD'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkViewsContext2D' component is 'ViewsContext2D'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingContextOpenGL2' component is
+  'RenderingContextOpenGL2'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-use-file-deprecated.cmake:1 (message):
+  The `VTK_USE_FILE` is no longer used starting with 8.90.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:348 (include)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+** WARNING ** io features related to pcap will be disabled
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkChartsCore' component is 'ChartsCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonCore' component is 'CommonCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonDataModel' component is 'CommonDataModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonExecutionModel' component is
+  'CommonExecutionModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersCore' component is 'FiltersCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersExtraction' component is
+  'FiltersExtraction'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersModeling' component is 'FiltersModeling'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingCore' component is 'ImagingCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingSources' component is 'ImagingSources'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionStyle' component is 'InteractionStyle'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionWidgets' component is
+  'InteractionWidgets'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOCore' component is 'IOCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOGeometry' component is 'IOGeometry'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOImage' component is 'IOImage'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOLegacy' component is 'IOLegacy'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOPLY' component is 'IOPLY'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingAnnotation' component is
+  'RenderingAnnotation'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingLOD' component is 'RenderingLOD'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkViewsContext2D' component is 'ViewsContext2D'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingContextOpenGL2' component is
+  'RenderingContextOpenGL2'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-use-file-deprecated.cmake:1 (message):
+  The `VTK_USE_FILE` is no longer used starting with 8.90.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:348 (include)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:288 (find_package_handle_standard_args)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:335 (find_libusb)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkChartsCore' component is 'ChartsCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonCore' component is 'CommonCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonDataModel' component is 'CommonDataModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkCommonExecutionModel' component is
+  'CommonExecutionModel'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersCore' component is 'FiltersCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersExtraction' component is
+  'FiltersExtraction'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkFiltersModeling' component is 'FiltersModeling'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingCore' component is 'ImagingCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkImagingSources' component is 'ImagingSources'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionStyle' component is 'InteractionStyle'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkInteractionWidgets' component is
+  'InteractionWidgets'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOCore' component is 'IOCore'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOGeometry' component is 'IOGeometry'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOImage' component is 'IOImage'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOLegacy' component is 'IOLegacy'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkIOPLY' component is 'IOPLY'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingAnnotation' component is
+  'RenderingAnnotation'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingLOD' component is 'RenderingLOD'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkViewsContext2D' component is 'ViewsContext2D'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:75 (message):
+  The new name for the 'vtkRenderingContextOpenGL2' component is
+  'RenderingContextOpenGL2'
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:274 (find_package)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:333 (find_VTK)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-use-file-deprecated.cmake:1 (message):
+  The `VTK_USE_FILE` is no longer used starting with 8.90.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:348 (include)
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:546 (find_external_library)
+  CMakeLists.txt:44 (find_package)
+
+
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /opt/clion/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+  CMakeLists.txt:44 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wmx/code/SLAM/PlanarSLAM/cmake-build-debug
